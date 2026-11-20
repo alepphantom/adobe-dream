@@ -1,0 +1,134 @@
+
+/* THREE ROOM BOXES */
+.Box,
+.BoxBox,
+.BoxBoxBox {
+    width: 28%;
+    float: left;
+    margin: 2%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #eeeeee;
+    min-height: 300px;
+}
+
+/* TOP BORDER COLOURS */
+.Box {
+    border-top: 10px solid #b95c35;
+}
+
+.BoxBox,
+.BoxBoxBox {
+    border-top: 10px solid #999966;
+}
+
+/* BOX TITLE */
+.Box h3,
+.BoxBox h3,
+.BoxBoxBox h3 {
+    font-size: 18px;
+    color: #333333;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* BOX PARAGRAPH */
+.Box p,
+.BoxBox p,
+.BoxBoxBox p {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #333333;
+}
+
+/* BOX IMAGE */
+.Box img,
+.BoxBox img,
+.BoxBoxBox img {
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+    display: block;
+}
+
+/* BOX LINK */
+.Box a,
+.BoxBox a,
+.BoxBoxBox a {
+    font-size: 12px;
+    color: blue;
+    text-decoration: none;
+}
+
+/* FOOTER */
+.Footer {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+}
+
+/* CSS Document */
+
+body {
+	background-color:#e8ddca;
+}
+
+.Kotak {
+	background-color:white;
+    width:900px;
+	margin:0px auto 0px auto;
+	padding:0px 20px 0px 20px;
+}
+.Logo{
+	float:left;
+}
+.Icon{
+	float:right;
+}
+.Navigation{
+	clear:both;
+	 
+	padding : 15px 0px 15px 0px;
+}
+.Navigation a {
+	color:black; 
+	word-spacing:20px;
+	text-decoration : none;
+	font-family:Arial;
+}
+
+.Navigation a:hover {
+	color:orange
+}
+
+.Title {
+	color:#BB5E00; 
+	border-bottom: solid 1px black; 
+	font-family:Arial;
+}
+
+.LeftContent {
+	font-family:Arial;
+	width:700px;
+	float : left;
+}
+.LeftContent img {
+	border:solid black 1px;
+	padding : 10px 10px 10px 10px;
+}
+
+
+.RightContent {
+	font-family: Arial; 
+	width: 200px; 
+	float:right;
+}
+.RightContent h4 {color:#bb5e00;}
+
+.Footer {clear:both;
+	text-align:center;
+	padding:10px;
+	border-top:solid 1px black;
+}
+
+
